@@ -63,7 +63,5 @@ users – audit_logs        	1:M	Each user can have multiple audit entries
 
 Step 3: Constraints
 NOT NULL on all important fields (e.g., quantity_used, current_stock)
-
 CHECK on fields like status, role
-
 FOREIGN KEY constraints to enforce referential integrity
